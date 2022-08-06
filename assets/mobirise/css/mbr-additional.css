@@ -938,9 +938,18 @@ b {
 }
 .cid-t9FzZai8ud {
   overflow: visible;
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 112px;
 }
-.cid-t9FzZai8ud .navbar-dropdown {
-  position: relative !important;
+@media (max-width: 767px) {
+  .cid-t9FzZai8ud {
+    min-height: 77px;
+  }
+}
+.cid-t9FzZai8ud nav.navbar {
+  position: fixed;
 }
 .cid-t9FzZai8ud .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1318,6 +1327,7 @@ b {
 }
 .cid-t9FzZai8ud .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-t9FzZai8ud a.nav-link {
   display: flex;
